@@ -6,7 +6,9 @@
     text-decoration: none;
 }
 
-body {}
+body {
+    background: #000000;
+}
 
 .container {
     max-width: 1200px;
@@ -95,14 +97,100 @@ header {
     }
 }
 
-main{
+main {
 
-    .section1{
-        img{
+    .section1 {
+        img {
             width: 100%;
         }
-        .container{
 
+        .container {}
+    }
+
+    .section2 {
+        .container {
+
+            .card_left {
+                margin-top: 80px;
+                width: 30%;
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #FFFFFFDE;
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 23px;
+                    letter-spacing: 0%;
+                    color: #FFFFFFDE;
+                    padding-top: 13px;
+                }
+            }
+
+            .cards {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 120px;
+
+                ul {
+                    li {
+                        h2 {
+                            font-weight: 700;
+                            font-size: 30px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: #FFFFFFDE;
+                            transition: all 1s ease-in-out;
+
+
+                            span {
+                                color: #FFFFFFDE;
+                                transition: all 1s ease-in-out;
+
+                            }
+                        }
+
+                        a {
+                            font-weight: 500;
+                            font-size: 25px;
+                            letter-spacing: 0%;
+                            color: #FFFFFFDE;
+                            transition: all 1s ease-in-out;
+                        }
+
+                        h2:hover {
+                        
+                    }
+                }
+
+                .card_rasm {
+
+                    .kvad {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+
+                        p {
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: #FFFFFFDE;
+                            transition: all 1s ease-in-out;
+                        }
+
+                        p:hover {
+                            color: #F4C430;
+                        }
+                    }
+                }
+            }
         }
     }
 }
