@@ -164,7 +164,16 @@ main {
                         }
 
                         h2:hover {
-                        
+                            color: #F4C430;
+
+                            span:hover {
+                                color: #F4C430;
+                            }
+                        }
+
+                        a:hover {
+                            color: #F4C430;
+                        }
                     }
                 }
 
