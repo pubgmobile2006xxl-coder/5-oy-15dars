@@ -6,8 +6,7 @@
     text-decoration: none;
 }
 
-body {
-}
+body {}
 
 .container {
     max-width: 1200px;
@@ -42,26 +41,49 @@ header {
                         color: #FFFFFFE5;
                         transition: all 1s ease-in-out;
                     }
+
                     a:hover {
                         color: yellow;
                     }
                 }
             }
 
-            .nav_right{
+            .nav_right {
                 display: flex;
                 align-items: center;
                 gap: 40px;
                 color: #FFFFFFE5;
 
-                select{
+                select {
                     background: none;
                     color: #FFFFFFE5;
                     border: none;
                     transition: all 1s ease-in-out;
                 }
-                select:hover{
+
+                select:hover {
                     color: yellow;
+                }
+
+                button {
+                    width: 70%;
+                    height: 30px;
+                    border-radius: 100px;
+                    border: none;
+                    background: #000000;
+                    color: #FFFFFFE5;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    padding: 0 16px;
+                    transition: all 1s ease-in-out;
+                }
+
+                button:hover {
+                    background: none;
+                    border: 1px solid #F4C430;
+                    color: #000000;
                 }
             }
         }

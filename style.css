@@ -52,4 +52,23 @@ header .container .navbar .nav_right select {
 }
 header .container .navbar .nav_right select:hover {
   color: yellow;
+}
+header .container .navbar .nav_right button {
+  width: 70%;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+  background: #000000;
+  color: rgba(255, 255, 255, 0.8980392157);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 0 16px;
+  transition: all 1s ease-in-out;
+}
+header .container .navbar .nav_right button:hover {
+  background: none;
+  border: 1px solid #F4C430;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
