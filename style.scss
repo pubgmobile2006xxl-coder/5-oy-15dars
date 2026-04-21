@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #000000;
+    background: #3e3e3e;
 }
 
 .container {
@@ -407,6 +407,49 @@ main {
                     line-height: 27px;
                     letter-spacing: 0%;
                     color: #FFFFFFDE;
+                }
+            }
+
+            .cards {
+
+                .card {
+                    width: 33%;
+                    height: 550px;
+                    background: black;
+                    box-shadow: 0px 15px 30px 0px #00000000;
+
+                    .tetle {
+                        display: flex;
+                        align-items: center;
+                        padding: 0 15px;
+                        justify-content: space-between;
+
+                        p {
+                            font-weight: 600;
+                            font-size: 23px;
+                            line-height: 27px;
+                            letter-spacing: 0%;
+                            color: #FFFFFF;
+                        }
+
+                        span {
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 27px;
+                            letter-spacing: 0%;
+                            color: #FFFFFFAD;
+                        }
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 23px;
+                        letter-spacing: 0%;
+                        color: #FFFFFFCC;
+                        padding: 15px 15px;
+
+                    }
                 }
             }
         }

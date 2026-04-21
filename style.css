@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #000000;
+  background: #3e3e3e;
 }
 
 .container {
@@ -326,4 +326,38 @@ main .section5 .container .title p {
   line-height: 27px;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 0.8705882353);
+}
+main .section5 .container .cards .card {
+  width: 33%;
+  height: 550px;
+  background: black;
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0);
+}
+main .section5 .container .cards .card .tetle {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+main .section5 .container .cards .card .tetle p {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+main .section5 .container .cards .card .tetle span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.6784313725);
+}
+main .section5 .container .cards .card p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 15px 15px;
 }/*# sourceMappingURL=style.css.map */
