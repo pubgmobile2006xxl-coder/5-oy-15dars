@@ -202,4 +202,34 @@ main {
             }
         }
     }
+
+    .section3 {
+        margin-top: 50px;
+
+        .container {
+
+            .title {
+                width: 45%;
+                text-align: center;
+                margin: 0 auto;
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #FFFFFFDE;
+                }
+
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 27px;
+                    letter-spacing: 0%;
+                    padding-top: 20px;
+                    color: #FFFFFFDE;
+                }
+            }
+        }
+    }
 }

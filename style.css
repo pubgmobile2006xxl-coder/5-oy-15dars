@@ -153,4 +153,27 @@ main .section2 .container .cards .card_rasm .kvad p {
 }
 main .section2 .container .cards .card_rasm .kvad p:hover {
   color: #F4C430;
+}
+main .section3 {
+  margin-top: 50px;
+}
+main .section3 .container .title {
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+}
+main .section3 .container .title h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8705882353);
+}
+main .section3 .container .title p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.8705882353);
 }/*# sourceMappingURL=style.css.map */
