@@ -478,4 +478,28 @@ main .section6 .container .cards .card_right {
 }
 main .section7 {
   margin-top: -280px;
+}
+
+footer .container {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+footer .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 46px;
+  margin-top: 50px;
+}
+footer .container ul li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.3803921569);
+  transition: all 1s ease-in-out;
+}
+footer .container ul li:hover {
+  color: yellow;
 }/*# sourceMappingURL=style.css.map */
