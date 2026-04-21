@@ -354,10 +354,31 @@ main {
         }
     }
 
-    .section4{
-        .container{
-            .cards{
-                
+    .section4 {
+        margin-top: 50px;
+
+        .container {
+
+            .cards {
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                flex-wrap: wrap;
+
+                ul {
+
+                    li {
+                        font-weight: 500;
+                        font-size: 25px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        color: #FFFFFFDE;
+                        padding-top: 30px;
+                    }
+                }
             }
         }
     }
